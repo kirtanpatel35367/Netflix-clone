@@ -303,20 +303,30 @@ nav .logo img{
     font-size: 20px;
 }
 
-footer{
-    height: 100px;
+
+footer {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 30px;
+    background-color: #080808; 
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    display: block;
+    padding: 5px;
+}
+
+.col1,
+.col2,
+.col3,
+.col4 {
     align-items: center;
 }
 
-footer a{
-    color: white;
-}
-.row1{
-    display: flex;
-    gap: 50px;
-}
+
 
 
 /* Using Media Quaries */
